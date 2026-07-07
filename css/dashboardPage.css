@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+}
+
+.main{
+    /* width: 1440px; */
+    width: 100%;
+    height: auto;
+    /* height: 1328px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.aside{
+    /* height: 1328px; */
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-right: 12px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+    align-items: center;
+    /* background-color: aqua; */
+    
+}
+
+.outer{
+    width: 216px;
+    height: 760px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.corehr{
+    height: 67px;
+    width: 216px;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hr{
+    /* width: 71px;
+    height: 67px;
+    border-radius: 10px; */
+}
+
+.img{
+     width: 71px;
+    height: 67px;
+    border-radius: 10px;
+}
+
+.core{
+    width: 119px;
+    height: 39px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #8454c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 14px 12px 14px 12px; */
+}
+
+.dashboard{
+    width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+    background-color: #d9bcff;
+}
+
+/* .employees{
+    width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.expenses{
+     width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.company{
+     width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.events{
+     width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.trainees{
+     width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.month{
+     width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.email{
+     width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.notification{
+     width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.template{
+     width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.payroll{
+     width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;
+} */
+
+.db{
+  width: 216px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    gap: 24px;   
+}
+
+.btn{
+    height: 216px;
+    width: 99px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 1205px; */
+    /* margin-top: 421px; */
+    margin-right: 12px;
+    margin-bottom: 24px;
+    margin-left: 12px;
+}
+
+/* .setting{
+    width: 216px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.log{
+    width: 216px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    gap: 24px;
+} */
+
+.cd{
+    width: 216px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.middle{
+    width: 80%;
+    height: auto;
+    display: flex;
+    /* background-color: purple; */
+}
+
+.nav{
+    width: 80%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+     position: absolute;
+    top: 0;
+    left: 240px; 
+} 
+
+.inp{
+    width: 395px;
+    height: 43px;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 12px;
+    /* margin-left: 12px; */
+}
+
+.hrn{
+    height: 19px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 12px;
+}
+
+.cards{
+    width: 80%;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+    flex-direction: row;
+    gap: 24px;
+    border: 1px solid black; 
+
+}
+
+.card{
+    width: 270px;
+    height: 149px;
+    border-radius: 12px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.car{
+    width: 87px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.ca{
+    width: 42px;
+    height: 36px;
+} 
