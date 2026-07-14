@@ -295,7 +295,9 @@ body{
     width: 80%;
     height: auto;
     display: flex;
+    flex-direction: column;
     /* background-color: purple; */
+    border: 1px solid grey;
 }
 
 .nav{
@@ -309,6 +311,7 @@ body{
      position: absolute;
     top: 0;
     left: 240px; 
+    margin-left: 12px;
 } 
 
 .inp{
@@ -330,16 +333,19 @@ body{
 }
 
 .cards{
-    width: 80%;
+    /* width: 80%; */
     height: 149px;
     display: flex;
-    justify-content: center;
-     align-items: center;
+    justify-content: space-between;
+    align-items: center;
     padding-right: 24px;
     padding-left: 24px;
     flex-direction: row;
     gap: 24px;
-    border: 1px solid black; 
+    border: 1px solid black;
+    margin-top: 80px; 
+    /* margin-right: 20px; */
+    left: 240px;
 
 }
 
@@ -364,3 +370,69 @@ body{
     width: 42px;
     height: 36px;
 } 
+
+
+.outer-container{
+    /* width: 80%; */
+    height: 851px;
+    display: flex;
+    justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 24px;
+    border: 1px solid black ;
+    flex-direction: row;
+}
+
+.outer1{
+    width: 753px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.inner-container{
+    height: 319px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #f1f5f9;
+    border-radius: 12px;
+}
+
+.upcoming{
+    width: 752px;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid black;
+    flex-direction: column;
+}
+
+.upcoming h6{
+    width: 170px;
+    height: 24px;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+}
+
+.upcoming p{
+    width: 63px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0px;
+}
+
+.date{
+    width: 752px;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid black; 
+}
