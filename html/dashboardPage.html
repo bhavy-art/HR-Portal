@@ -7,126 +7,317 @@
     <link rel="stylesheet" href="../css/dashboardPage.css">
 </head>
 <body>
-    <main class="main">
-        <section class="aside">
-            <div class="outer">
-                <div class="corehr">
-                    <div class="hr">
-                        <img class="img" src="../assets/75f57b59b96b8de4576346f046d77b8698a60f5e.png" alt="">
-                    </div >
+    <div class="dashboard">
 
-                    <div class="core">Core Hr</div>
-                </div>
-                <div class="dashboard db">Dashboard</div>
-                <div class="employees db">Employees</div>
-                <div class="expenses db">Expenses</div>
-                <div class="company db">Company Doc.</div>
-                <div class="events db">Events</div>
-                <div class="trainees db">Trainees Update</div>
-                <div class="month db">Monthly Bills</div>
-                <div class="email db">Email Approval Center</div>
-                <div class="notification db">Notification</div>
-                <div class="template db">Template</div>
-                <div class="payroll db">Payroll</div>
-            <!-- </div> -->
+    <aside class="sidebar">
 
-                <div class="btn">
-                    <div class="setting cd">Setting</div>
-                    <div class="log cd">Log Out</div>
+        <div class="logo">
+            <img src="../assets/75f57b59b96b8de4576346f046d77b8698a60f5e.png" alt="">
+            <h2>CoreHR</h2>
+        </div>
+
+        <div class="menu">
+            <a>Dashboard</a>
+            <a>Employees</a>
+            <a>Expenses</a>
+            <a>Company Doc.</a>
+            <a>Events</a>
+            <a>Trainees Update</a>
+            <a> Monthly Bills</a>
+            <a>Email Approval Center</a>
+            <a>Notification</a>
+            <a>Template</a>
+            <a>Payroll</a>
+        </div>
+
+        <div class="bottom-menu">
+            <a>Settings</a>
+            <a>Log Out</a>
+        </div>
+
+    </aside>
+
+
+
+    <main class="content">
+
+        <nav class="navbar">
+            <div class="search-box">
+                <input type="text" placeholder="Search across dashboard...">
+            </div>
+
+            <div class="profile">
+                <span>HR-Nancy</span>
+            </div>
+        </nav>
+
+        <!-- CARDS -->
+
+        <section class="cards">
+
+            <div class="card">
+                <div class="text">
+                    <p>Total Intern</p>
+                    <h2>20</h2>
                 </div>
+
+                <div class="icon blue"></div>
+            </div>
+
+            <div class="card">
+                <div class="text">
+                    <p>Collaboration</p>
+                    <h2>+20</h2>
+                </div>
+                <div class="icon green"></div>
 
             </div>
+
+            <div class="card">
+                <div class="text">
+                    <p>Total College</p>
+                    <h2>24</h2>
+                </div>
+                <div class="icon orange"></div>
+            </div>
+
+            <div class="card">
+                <div class="text">
+                    <p>Total Employees</p>
+                    <h2>27</h2>
+                </div>
+                <div class="icon purple"></div>
+            </div>
+
         </section>
 
-        <section class="middle">
-            <div class="nav">
-                <div class="inp">
-                    <input type="text" placeholder="Search across dashboard">
+
+         <section class="main-body">
+
+            <!-- LEFT SIDE -->
+
+            <div class="left-panel">
+
+                <!-- EVENTS -->
+
+                <div class="box">
+
+                    <div class="box-header">
+                        <h3>Upcoming Events</h3>
+                        <a href="#">View All</a>
+                    </div>
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+                                <th>Date</th>
+                                <th>Type</th>
+                                <th>Event</th>
+                                <th>Action</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Oct 24, 2023</td>
+                                <td class="review">Review</td>
+                                <td>HR Review Session</td>
+                                <td>Edit</td>
+                            </tr>
+
+                            <tr>
+                                <td>Oct 26, 2023</td>
+                                <td class="meeting">Meeting</td>
+                                <td>Client Strategy Meeting</td>
+                                <td>Edit</td>
+                            </tr>
+
+                            <tr>
+                                <td>Oct 30, 2023</td>
+                                <td class="visit">Visit</td>
+                                <td>Annual CEO Office Visit</td>
+                                <td>Edit</td>
+                            </tr>
+
+                            <tr>
+                                <td>Oct 30, 2023</td>
+                                <td class="visit">Visit</td>
+                                <td>Annual CEO Office Visit</td>
+                                <td>Edit</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
                 </div>
-                <div class="hrn">HR-Nancy</div>
+
+                <!-- EXPENSES -->
+
+                <div class="box">
+
+                    <div class="box-header">
+
+                        <h3>Recent Expenses</h3>
+
+                        <a href="#">View All</a>
+
+                    </div>
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Date</th>
+                                <th>Category</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Oct 20</td>
+                                <td>Office Use</td>
+                                <td>$400</td>
+                                <td class="approved">Approved</td>
+                            </tr>
+
+                            <tr>
+                                <td>Oct 19</td>
+                                <td>Travel</td>
+                                <td>$1000</td>
+                                <td class="pending">Pending</td>
+                            </tr>
+
+                            <tr>
+                                <td>Oct 15</td>
+                                <td>Event</td>
+                                <td>$2000</td>
+                                <td class="approved">Approved</td>
+                            </tr>
+
+                            <tr>
+                                <td>Oct 15</td>
+                                <td>Event</td>
+                                <td>$2000</td>
+                                <td class="approved">Approved</td>
+                            </tr>
+
+                            <tr>
+                                <td>Oct 15</td>
+                                <td>Event</td>
+                                <td>$2000</td>
+                                <td class="approved">Approved</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+                <!-- QUICK ACTION -->
+
+                <div class="quick-action">
+
+                    <h3>Quick Action</h3>
+
+                    <div class="buttons">
+
+                        <button class="primary">
+                            Add Expense
+                        </button>
+
+                        <button>Add Event</button>
+
+                        <button>Add Note</button>
+
+                        <button>Add Employee</button>
+
+                        <button>Add Document</button>
+
+                    </div>
+
+                </div>
+
             </div>
 
+            <!-- RIGHT PANEL -->
 
-            <div class="cards">
-                <div class="card">
-                    <div class="car">Total intern 20</div>
-                    <div class="cs"> <a href="../assets/Icon.svg"></a></div>
+            <div class="right-panel">
+
+                <!-- NOTIFICATIONS -->
+
+                <div class="box">
+
+                    <h3>Notification Panel</h3>
+
+                    <div class="notification-item">
+                        <h4>MOU Discussion</h4>
+                        <p>Partnership contract with University A.</p>
+                    </div>
+
+                    <div class="notification-item">
+                        <h4>Offer Letter</h4>
+                        <p>Pending approval for UI Designer.</p>
+                    </div>
+
+                    <div class="notification-item">
+                        <h4>Onboarding</h4>
+                        <p>3 new interns starting tomorrow.</p>
+                    </div>
+
+                    <div class="notification-item">
+                        <h4>Verification</h4>
+                        <p>Compliance completed for employees.</p>
+                    </div>
+
                 </div>
-                <div class="card">
-                    <div class="car">Collaboration 20+</div>
-                    <div class="ca"><a href="../assets/Icon.svg"></a></div>
+
+                <!-- ALERTS -->
+
+                <div class="box">
+
+                    <h3>Alerts & Reminders</h3>
+
+                    <div class="alert red">
+                        Expense Bills Overdue
+                    </div>
+
+                    <div class="alert blue">
+                        Leave Data Update
+                    </div>
+
+                    <div class="alert orange">
+                        3 Unread Emails
+                    </div>
+
+                    <div class="alert purple">
+                        Expense Review
+                    </div>
+
+                    <div class="alert green">
+                        Company Event Today
+                    </div>
+
                 </div>
-                <div class="card">
-                    <div class="car">Total College 24</div>
-                    <div class="ca"><a href="../assets/Icon.svg"></a></div>
-                </div>
-                <div class="card">
-                    <div class="car">Total Employees</div>
-                    <div class="ca"><a href="../assets/Icon.svg"></a></div>
-                </div>
+
             </div>
 
-
-            <div class="outer-container">
-                <div class="outer1">
-                    <div class="inner-container">
-                        <div class="upcoming">
-                           <h6>Upcoming Events</h6>
-                           <p>View All</p> 
-                        </div>
-
-                        <div class="date">
-                            <p>Date</p>
-                            <p>Type</p>
-                            <p>Event</p>
-                            <p>Action</p>
-                        </div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-
-
-                <div>
-                    <div>
-                        <div></div>
-                        
-                        <div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <div></div>
-                        
-                        <div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
+
     </main>
+
+    </div>
 </body>
 </html>
